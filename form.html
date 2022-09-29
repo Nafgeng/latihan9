@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+    <!-- Element input itu ada 3 :
+    1. submit = mengirimkan data
+    2. reset = menghapus semua data
+    3. button = untuk memberi fungsi spesifik pada button -->
+    
+    <!-- HTML element tag <label> berguna untuk memberitahukan kepada pengguna mengenai data yang akan dimasukkan pada suatu formulir. -->
+        <!-- jangan lupa dibungkus form -->
+<!-- <form> -->
+    <!-- <label for="username">Username : </label>  -->
+    <!-- input text = seperti plain text -->
+    <!-- <input type="text" id="username"> -->
+    <!-- <br> -->
+    <!-- <label for="password">Password : </label> -->
+    <!-- <input type="password" id="password"> -->
+    <!-- <br> -->
+    <!-- name = untuk memisahkan nama dari grupnya dan membuat tidak bisa memilih 2-2nya -->
+    <!-- <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label> -->
+    <!-- <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label> -->
+    <!-- <br> -->
+    <!-- checkbox = untuk pilihan lebih dari 1 -->
+    <!-- <input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label> -->
+    <!-- <input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label> -->
+    <!-- <input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label> -->
+    <!-- <br> -->
+    <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+    <!-- <br> -->
+    <!-- select = untuk membuat combo box -->
+    <!-- <select name="" id=""> -->
+        <!-- <option value="">Tangerang</option> -->
+        <!-- <option value="">Tangsel</option> -->
+        <!-- <option value="">Kabupaten Tangerang</option> -->
+    <!-- </select> -->
+    <!-- <br> -->
+    <!-- value = untuk megubah tulisannya -->
+    <!-- <input type="submit" value="kirim!"> -->
+    <!-- lebih disarankan menggunakan button -->
+    <!-- <button type="submit">kirim!</button> -->
+<!-- </form>  -->
+
+<table border="3" >
+    <tr>
+        <td>Text</td>
+        <td><input type="text" name="text" id="text"></td>
+    </tr>
+    <tr>
+        <td>Password</td>
+        <td><input type="password" name="password" id="password"></td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="radio">Radio 1
+            <input type="radio">Radio 2</td>
+    </tr>
+    <tr>
+        <td colspan="2"><input type="checkbox">checkbox 1
+            <input type="checkbox">checkbox 2</td>
+    </tr>
+    <tr>
+        <td colspan="2">Combo Box<select name="" id="">
+            <option value="">Tangerang</option>
+            <option value="">Tangsel</option>
+            <option value="">Kabupaten Tangerang</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td>TextArea<textarea name="" id="" cols="30" rows="10"></textarea></td>
+    </tr>
+</table>
+
+</body>
+</html>
